@@ -83,9 +83,37 @@ if (x > 0) {
             </p>
             <p>Entita &nbsp; znamená nedělitelná mezera.</p>
             <p>Pomocí entit můžeme zadávat libovolný znak z tabulky znaků: </p>
+            <ul>
+                <li>Pomocí desítkové soustavy: entita &amp;#64; = &#64;</li>
+                <li>Pomocí šestnáctkové soustavy: entita &amp;#x2665; = &#x2665;</li>
+            </ul>
             </section>
-        <section id="multimedia"></section>
+        <section id="multimedia">
             <h2>Multimedia</h2>
+            <h3>Statické obrázky</h3>
+            <figure>
+                <img src="https://www.sspu-opava.cz/static/img/core-img/skola-logo.png" alt="Logo školy" width="300" >
+                <figcaption>Popisek pod obrázkem</figcaption>
+            </figure>
+            <h3>Videa, animace</h3>
+            <video width="320" height="240" controls autoplay muted>
+                <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+                <source src="https://www.w3schools.com/html/movie.ogg" type="video/ogg">
+                Your browser does not support HTML video.
+            </video>
+            <h3>Zvuky, hudba</h3>
+            <audio controls autoplay muted>
+                <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+            <h3>YouTube video</h3>
+            <iframe width="560" height="315"src="https://www.youtube.com/watch?v=KNK-tmMz618"
+            title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            <h3>Iframe - rám uvnitř stránky</h3>
+            <iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe>
+            <iframe src="https://www.sspu-opava.cz" width="600" height="400" title="Iframe Example" frameborder="0"></iframe>
+        </section>
     </main>
     <footer>
         <hr>
