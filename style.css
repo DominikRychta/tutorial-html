@@ -1,0 +1,38 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: #222;
+}
+
+h1, h2, h3 {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: blue !important;
+}
+
+h2 {
+    color: red !important;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.center {
+    text-align: center;
+}
+
+.podtrzeni {
+    text-decoration: underline;
+}
+
+/*
+.podtrzeni-teckami {
+    text-decoration: dotted;
+}
+*/
+
+#typy-elementu {
+    background-color: rgb(200, 200, 200)
+}
+
+#multimedia {
+    background-color: hsl(250, 100, 50);
+}
+

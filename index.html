@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,16 @@
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Dominik Rychta">
     <title>HTML tutorial</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>HTML speciality</h1>
     </header>
     <main>
-        <section id="typy-elementu"></section>	
-            <h2>Typy elementů</h2>
+        <section id="typy-elementu">	
+            <h2 class="center podtrzeni">Typy elementů</h2>
             <p>Existují <strong>párové</strong> (p, body, div...) a <strong>nepárové</strong> značky (meta, hr, br, img).
             <h3>Inline elementy</h3>
             <p>Jde p značky, které se používají uvnitř řádku a nevytvářejí nové řádky.</p>
@@ -23,7 +26,7 @@
             H<sub>2</sub>o, 2<sup>8</sup>, <small>menší text</small>, <abbr title="HyperText Markup Language">HTML</abbr>,
             <bdo dir="rtl">Text pozpátku</bdo>.
             </p>
-            <h3>Blokové elementy</h3>
+            <h3 class="podtrzeni">Blokové elementy</h3>
             <p>Značky, které vatvářejí samostatný blok včetně zalomení řádku (např. p, seznamy, div, nadpisy...).</p>
             <h4>Delší citát</h4>
             <blockquote cite="http://www.worldwildlife.org/who/index.html">
@@ -40,6 +43,7 @@ if (x > 0) {
 }
 </code>
 </pre>
+        </section>
             <h3>Sématické elementy</h3>
             <p>V HTML 5 byly přidány tzv. sématické značky, které používáme pro zdůraznění 
                 významu určité části testu stránky.
@@ -91,7 +95,7 @@ if (x > 0) {
         <section id="multimedia">
             <h2>Multimedia</h2>
             <h3>Statické obrázky</h3>
-            <figure>
+            <figure class="center">
                 <img src="https://www.sspu-opava.cz/static/img/core-img/skola-logo.png" alt="Logo školy" width="300" >
                 <figcaption>Popisek pod obrázkem</figcaption>
             </figure>
@@ -108,10 +112,9 @@ if (x > 0) {
             Your browser does not support the audio element.
             </audio>
             <h3>YouTube video</h3>
-            <iframe width="560" height="315"src="https://www.youtube.com/watch?v=KNK-tmMz618"
-            title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://youtu.be/Bf_CTQOXKHQ"></iframe>
             <h3>Iframe - rám uvnitř stránky</h3>
-            <iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe>
+            <iframe src="demo_iframe.html" height="200" width="300" title="Iframe Example"></iframe>
             <iframe src="https://www.sspu-opava.cz" width="600" height="400" title="Iframe Example" frameborder="0"></iframe>
         </section>
     </main>
